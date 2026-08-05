@@ -7,3 +7,7 @@
 Thumbs.db
 *.tmp
 ~$*
+
+# Material gráfico generado localmente para impresión
+/output/
+/tools/
