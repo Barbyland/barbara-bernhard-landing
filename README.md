@@ -1,60 +1,65 @@
-# Landing profesional de Bárbara Bernhard
+# Bárbara Bernhard — Landing profesional
 
-Landing estática, responsive y accesible para presentar el perfil profesional de Bárbara Bernhard en QA, Automation Testing y TravelTech.
+> **QA Analyst | Automation Testing | TravelTech**
 
-## Archivos principales
+Landing personal creada para presentar de forma clara y directa mi perfil profesional, experiencia, proyectos y formación.
 
-- `index.html`: contenido y estructura semántica.
-- `styles.css`: diseño, responsive y estados de foco.
-- `script.js`: menú móvil accesible y año dinámico.
-- `assets/barbara-bernhard.webp`: fotografía profesional optimizada para web.
-- `assets/Barbara_Bernhard_CV_QA_2026_publico_sin_telefono.pdf`: CV público descargable.
-- `assets/favicon.png`: favicon con las iniciales BB.
+El sitio reúne mi recorrido en Quality Assurance, automatización de pruebas, tecnología aplicada al turismo y desarrollo web, combinando más de 15 años de experiencia en operaciones turísticas con formación técnica en programación y testing.
+
+## Objetivo
+
+Facilitar que reclutadores, empresas y contactos profesionales puedan conocer mi perfil en pocos segundos y acceder desde un único lugar a:
+
+- Mi experiencia en QA funcional, Automation Testing y TravelTech.
+- Proyectos técnicos y colaborativos.
+- LinkedIn y GitHub.
+- Portfolio de Barby Digital.
+- CV público descargable.
+
+## Proyectos destacados
+
+- **FARO:** QA funcional, accesibilidad y colaboración Front-End en una herramienta de accesibilidad para Moodle desarrollada en Innova Lab.
+- **Automation Testing Framework:** pruebas automatizadas UI y API con Python, Selenium WebDriver, Pytest, Requests y Page Object Model.
+- **Sistema de Gestión de Inventario:** aplicación en Python y SQLite con validaciones y persistencia de datos.
+- **Barby Digital:** diseño y desarrollo de sitios web responsive para emprendedores y pequeños negocios.
+
+## Tecnologías
+
+- HTML5 semántico.
+- CSS3 y diseño responsive.
+- JavaScript vanilla.
+- Python, Selenium WebDriver, Pytest y Requests.
+- Git, GitHub y GitHub Actions.
+
+## Accesibilidad y calidad
+
+La landing fue desarrollada considerando:
+
+- Navegación completa por teclado.
+- Enlace para saltar al contenido.
+- Foco visible y contraste WCAG AA.
+- HTML semántico y jerarquía correcta de encabezados.
+- Compatibilidad con `prefers-reduced-motion`.
+- Diseño verificado en 375 px, 768 px y escritorio.
+- CV público sin teléfono ni información sensible.
 
 ## Ejecutar localmente
 
-La página puede abrirse directamente haciendo doble clic en `index.html`. Para probarla con un servidor local:
+Abrir `index.html` en el navegador o iniciar un servidor local:
 
 ```powershell
 python -m http.server 8000
 ```
 
-Luego abrir `http://localhost:8000`.
+Luego visitar `http://localhost:8000`.
 
-## Reemplazar la fotografía
+## Contacto
 
-Reemplazar `assets/barbara-bernhard.webp` por otra imagen con el mismo nombre. Se recomienda una fotografía cuadrada, de al menos 900 × 900 px y optimizada para web.
+- [LinkedIn](https://www.linkedin.com/in/barbara-bernhard/)
+- [GitHub](https://github.com/Barbyland)
+- [Portfolio Barby Digital](https://barby-digital-web.netlify.app/)
+- Email: [barby.bernhard@gmail.com](mailto:barby.bernhard@gmail.com)
 
-## Actualizar el CV
+---
 
-Reemplazar `assets/Barbara_Bernhard_CV_QA_2026_publico_sin_telefono.pdf` conservando exactamente el mismo nombre. La versión pública no debe incluir teléfono ni datos sensibles.
-
-## Cambiar enlaces o textos
-
-Editar `index.html` y buscar la URL o el texto que se desea actualizar. Los enlaces externos incluyen apertura en una nueva pestaña y protección `noopener noreferrer`.
-
-## Publicar en Netlify
-
-1. Iniciar sesión en Netlify.
-2. Elegir **Add new site** y luego **Deploy manually**.
-3. Arrastrar la carpeta completa `landing profesional personal 2026` al área de publicación.
-4. Cuando Netlify entregue la URL pública, abrirla y probar todos los enlaces antes de generar el QR.
-
-No se necesita comando de compilación. El directorio de publicación es la raíz de esta carpeta.
-
-## Publicar en GitHub Pages
-
-1. Crear un repositorio y subir el contenido de esta carpeta a la rama `main`.
-2. En el repositorio, abrir **Settings → Pages**.
-3. En **Build and deployment**, seleccionar **Deploy from a branch**.
-4. Elegir la rama `main` y la carpeta `/ (root)`.
-5. Guardar y esperar la URL pública.
-
-## Verificación previa al QR
-
-- Confirmar la descarga del CV público.
-- Abrir LinkedIn, GitHub, FARO, Barby Digital y los repositorios.
-- Revisar la página en 375 px, 768 px y escritorio.
-- Probar navegación completa con teclado y zoom al 200%.
-- Ejecutar Lighthouse desde Chrome en las categorías Performance, Accessibility, Best Practices y SEO.
-- Generar el QR únicamente con la URL pública definitiva y probarlo desde otro teléfono con datos móviles.
+Desarrollado por **Bárbara Bernhard** · Buenos Aires, Argentina · 2026
