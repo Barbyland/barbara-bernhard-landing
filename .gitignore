@@ -1,0 +1,9 @@
+# Documentos de trabajo privados o duplicados de la raíz
+/*.docx
+/*.pdf
+
+# Archivos temporales del sistema y editores
+.DS_Store
+Thumbs.db
+*.tmp
+~$*
