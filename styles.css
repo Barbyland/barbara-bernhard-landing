@@ -54,7 +54,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 1rem; margin-top: 2rem; }
 .availability { max-width: 39rem; display: flex; align-items: flex-start; gap: .7rem; margin: 1.6rem 0 0; color: #3f4e5a; font-size: .88rem; }
 .availability > span { flex: 0 0 auto; width: .62rem; aspect-ratio: 1; margin-top: .42rem; background: #2b8c64; border-radius: 50%; box-shadow: 0 0 0 5px rgba(43, 140, 100, .13); }
-.portrait-wrap { position: relative; justify-self: end; width: min(100%, 420px); }
+.portrait-wrap { position: relative; justify-self: end; width: min(100%, 340px); }
 .portrait-frame { position: relative; overflow: hidden; border-radius: 48% 48% 1.5rem 1.5rem; box-shadow: var(--shadow); }
 .portrait-frame::after { content: ""; position: absolute; inset: 0; border: 1px solid rgba(255, 255, 255, .55); border-radius: inherit; }
 .portrait-frame img { width: 100%; aspect-ratio: .84; object-fit: cover; object-position: 50% 34%; }
@@ -148,7 +148,7 @@ blockquote { margin: 2.6rem 0 0; padding: .5rem 0 .5rem 1.6rem; color: var(--nav
   .main-nav.is-open { display: flex; }
   .main-nav > a:not(.button) { padding: .7rem .2rem; }
   .hero { background: linear-gradient(145deg, #f7fafa 0%, #f7fafa 68%, #deefec 68%); }
-  .hero-grid { grid-template-columns: 1fr 300px; gap: 2rem; }
+  .hero-grid { grid-template-columns: 1fr 250px; gap: 2rem; }
   .hero h1 { font-size: clamp(3.8rem, 10vw, 6rem); }
   .portrait-note { left: -1.5rem; }
   .card-grid { grid-template-columns: repeat(2, 1fr); }
@@ -163,7 +163,7 @@ blockquote { margin: 2.6rem 0 0; padding: .5rem 0 .5rem 1.6rem; color: var(--nav
   .hero .eyebrow, .hero h1, .hero-role, .hero-lead { grid-column: 1; }
   .hero-actions { grid-row: 5; }
   .availability { grid-row: 6; }
-  .portrait-wrap { grid-row: 7; justify-self: center; width: min(70vw, 270px); margin: 1.5rem auto 0; }
+  .portrait-wrap { grid-row: 7; justify-self: center; width: min(54vw, 210px); margin: 1.5rem auto 0; }
   .portrait-note { left: -.5rem; bottom: 1rem; }
   .proof-strip { grid-template-columns: 1fr; margin-top: 3rem; }
   .proof-strip p { padding: .9rem 0; border-right: 0; border-bottom: 1px solid rgba(26,45,68,.14); }
@@ -178,6 +178,7 @@ blockquote { margin: 2.6rem 0 0; padding: .5rem 0 .5rem 1.6rem; color: var(--nav
 
 @media (max-width: 390px) {
   .hero h1 { font-size: 3.4rem; }
+  .portrait-wrap { width: min(52vw, 190px); }
   .hero-actions { align-items: stretch; flex-direction: column; }
   .hero-actions .button, .hero-actions .text-link { width: 100%; text-align: center; }
   .languages ul { grid-template-columns: 1fr; }
