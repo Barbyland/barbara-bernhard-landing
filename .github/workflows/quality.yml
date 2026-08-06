@@ -1,0 +1,45 @@
+name: Calidad de la landing
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  quality:
+    name: HTML y accesibilidad
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v6
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          package-manager-cache: false
+
+      - name: Validar HTML
+        run: npx --yes html-validate@11.5.6 index.html
+
+      - name: Iniciar servidor local
+        shell: bash
+        run: |
+          python3 -m http.server 8080 --bind 127.0.0.1 > /tmp/landing-server.log 2>&1 &
+          for attempt in {1..15}; do
+            if curl --fail --silent http://127.0.0.1:8080/ > /dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          cat /tmp/landing-server.log
+          exit 1
+
+      - name: Validar accesibilidad WCAG 2 AA
+        run: npx --yes pa11y-ci@4.1.1 --config .pa11yci
