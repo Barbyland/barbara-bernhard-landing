@@ -64,10 +64,10 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .hero-orb { position: absolute; border-radius: 50%; opacity: .35; filter: blur(1px); }
 .hero-orb-one { width: 16rem; height: 16rem; top: 12%; right: 32%; background: #b6ded8; }
 .hero-orb-two { width: 7rem; height: 7rem; right: 4%; bottom: 16%; border: 1.4rem solid rgba(35,119,128,.17); }
-.proof-strip { position: relative; z-index: 2; display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; margin-top: clamp(4rem, 7vw, 6rem); border-top: 1px solid rgba(26, 45, 68, .18); }
-.proof-strip p { margin: 0; padding: 1.4rem 1rem; color: var(--navy); font-size: .88rem; font-weight: 750; border-right: 1px solid rgba(26,45,68,.14); }
-.proof-strip p:first-child { padding-left: 0; }
-.proof-strip p:last-child { border: 0; }
+.proof-strip { position: relative; z-index: 2; display: grid; grid-template-columns: repeat(3, 1fr); gap: 0; margin-top: clamp(4rem, 7vw, 6rem); margin-bottom: 0; padding-left: 0; border-top: 1px solid rgba(26, 45, 68, .18); list-style: none; }
+.proof-strip li { margin: 0; padding: 1.4rem 1rem; color: var(--navy); font-size: .88rem; font-weight: 750; border-right: 1px solid rgba(26,45,68,.14); }
+.proof-strip li:first-child { padding-left: 0; }
+.proof-strip li:last-child { border: 0; }
 .proof-strip span { margin-right: .6rem; color: var(--teal); font-size: .7rem; }
 
 .section { padding: clamp(5rem, 9vw, 8rem) 0; }
@@ -169,7 +169,7 @@ blockquote { margin: 2.6rem 0 0; padding: .5rem 0 .5rem 1.6rem; color: var(--nav
   .portrait-note span { font-size: 1.05rem; }
   .portrait-note p { font-size: .55rem; line-height: 1.15; }
   .proof-strip { grid-template-columns: 1fr; margin-top: 3rem; }
-  .proof-strip p { padding: .9rem 0; border-right: 0; border-bottom: 1px solid rgba(26,45,68,.14); }
+  .proof-strip li { padding: .9rem 0; border-right: 0; border-bottom: 1px solid rgba(26,45,68,.14); }
   .intro-grid, .education-grid, .projects-heading { grid-template-columns: 1fr; gap: 2.5rem; }
   .card-grid, .project-grid { grid-template-columns: 1fr; }
   .skill-card { min-height: auto; }
