@@ -10,6 +10,10 @@ Combino más de 15 años de experiencia en operaciones turísticas y sistemas de
 
 **Sitio publicado:** [barbara-bernhard.netlify.app](https://barbara-bernhard.netlify.app/)
 
+## Vista previa de la landing
+
+![Vista de escritorio de la landing profesional de Bárbara Bernhard](assets/landing-preview-clean.png)
+
 ## Objetivo
 
 Facilitar que recruiters, empresas y contactos profesionales puedan conocer mi perfil en pocos segundos y acceder desde un único lugar a:
