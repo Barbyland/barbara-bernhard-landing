@@ -76,7 +76,7 @@ Los proyectos enlazados desde la landing también incorporan Python, SQLite, Sel
 
 El desarrollo contempla:
 
-- Navegación por teclado y foco visible.
+- Navegación por teclado en enlaces, botones y menú, con foco visible.
 - Enlace para saltar al contenido principal.
 - Jerarquía semántica de encabezados.
 - Etiquetas y estados ARIA en la navegación móvil.
