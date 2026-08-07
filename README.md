@@ -101,7 +101,7 @@ Estas comprobaciones automáticas complementan, pero no reemplazan, la revisión
 │   ├── Barbara_Bernhard_CV_QA_Test_Automation_2026_Publico.pdf
 │   ├── Barbara_Bernhard_CV_Tech_Hibrido_2026_Publico.pdf
 │   ├── barbara-bernhard.webp
-│   └── barbara-bernhard-share-v2.jpg
+│   └── barbara-bernhard-share-v3.jpg
 ├── .htmlvalidate.json
 ├── .pa11yci
 ├── index.html
