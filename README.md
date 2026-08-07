@@ -2,11 +2,11 @@
 
 [![Calidad de la landing](https://github.com/Barbyland/barbara-bernhard-landing/actions/workflows/quality.yml/badge.svg)](https://github.com/Barbyland/barbara-bernhard-landing/actions/workflows/quality.yml)
 
-> **QA Analyst | Automation Testing | TravelTech**
+> **QA Analyst | Test Automation | Web Developer | TravelTech**
 
 Landing personal desarrollada para presentar de forma clara y directa mi perfil profesional, experiencia, formación y proyectos con evidencia pública.
 
-Combino más de 15 años de experiencia en operaciones turísticas y sistemas de reservas con formación técnica en programación, testing funcional y automatización. También aporto conocimientos de desarrollo Front-End para comprender los productos de manera integral.
+Combino más de 15 años de experiencia en operaciones turísticas y sistemas de reservas con formación técnica en programación, testing funcional, Test Automation y desarrollo web. También realizo traducción, transcripción y revisión de contenidos multilingües.
 
 **Sitio publicado:** [barbara-bernhard.netlify.app](https://barbara-bernhard.netlify.app/)
 
@@ -18,10 +18,10 @@ Combino más de 15 años de experiencia en operaciones turísticas y sistemas de
 
 Facilitar que recruiters, empresas y contactos profesionales puedan conocer mi perfil en pocos segundos y acceder desde un único lugar a:
 
-- Experiencia en QA funcional, Automation Testing y TravelTech.
+- Experiencia en QA funcional, Test Automation, desarrollo web, TravelTech y traducciones.
 - Proyectos técnicos y colaborativos con resultados verificables.
 - LinkedIn, GitHub y portfolio de Barby Digital.
-- CV público descargable sin teléfono ni información sensible.
+- CV profesional híbrido y CV enfocado en QA, ambos públicos y sin teléfono ni información sensible.
 
 ## Decisiones de desarrollo
 
@@ -60,6 +60,7 @@ Framework modular de pruebas UI y API con Python, Selenium WebDriver, Pytest, Re
 
 - **Sistema de Gestión de Inventario:** aplicación en Python y SQLite con validaciones y persistencia de datos.
 - **Barby Digital:** diseño y desarrollo de sitios web responsive para emprendedores y pequeños negocios.
+- **GoTranscript:** traducción, transcripción y revisión freelance de contenidos multilingües.
 
 ## Tecnologías
 
@@ -97,7 +98,8 @@ Estas comprobaciones automáticas complementan, pero no reemplazan, la revisión
 .
 ├── .github/workflows/quality.yml
 ├── assets/
-│   ├── Barbara_Bernhard_CV_QA_2026_publico_sin_telefono.pdf
+│   ├── Barbara_Bernhard_CV_QA_Test_Automation_2026_Publico.pdf
+│   ├── Barbara_Bernhard_CV_Tech_Hibrido_2026_Publico.pdf
 │   ├── barbara-bernhard.webp
 │   └── barbara-bernhard-share-v2.jpg
 ├── .htmlvalidate.json
