@@ -21,7 +21,7 @@ Facilitar que recruiters, empresas y contactos profesionales puedan conocer mi p
 - Experiencia en QA funcional, Test Automation, desarrollo web, TravelTech y traducciones.
 - Proyectos técnicos y colaborativos con resultados verificables.
 - LinkedIn, GitHub y portfolio de Barby Digital.
-- CV profesional híbrido y CV enfocado en QA, ambos públicos y sin teléfono ni información sensible.
+- CV de perfil híbrido y CV de QA / Test Automation, ambos públicos y sin teléfono ni información sensible.
 
 ## Decisiones de desarrollo
 
@@ -58,7 +58,7 @@ Framework modular de pruebas UI y API con Python, Selenium WebDriver, Pytest, Re
 
 ### Otros proyectos
 
-- **Sistema de Gestión de Inventario:** aplicación en Python y SQLite con validaciones y persistencia de datos.
+- **QA Portfolio:** proyecto de testing funcional con planificación, casos de prueba, dos ciclos de ejecución, regresión, defectos y evidencias documentadas en Jira y Zephyr.
 - **Barby Digital:** diseño y desarrollo de sitios web responsive para emprendedores y pequeños negocios.
 - **GoTranscript:** traducción, transcripción y revisión freelance de contenidos multilingües.
 
