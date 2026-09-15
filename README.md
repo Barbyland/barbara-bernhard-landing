@@ -149,7 +149,7 @@ La rama principal se publica automáticamente en Netlify. Cada `push` o `pull re
 
 - [LinkedIn](https://www.linkedin.com/in/barbara-bernhard/)
 - [GitHub](https://github.com/Barbyland)
-- [Portfolio Barby Digital](https://barby-digital-web.netlify.app/)
+- [Portfolio Barby Digital](https://barbydigital.com.ar/)
 - [barby.bernhard@gmail.com](mailto:barby.bernhard@gmail.com)
 
 ---
