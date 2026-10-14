@@ -21,7 +21,7 @@ Facilitar que recruiters, empresas y contactos profesionales puedan conocer mi p
 - Experiencia en QA funcional, Test Automation, desarrollo web, TravelTech y traducciones.
 - Proyectos técnicos y colaborativos con resultados verificables.
 - LinkedIn, GitHub y portfolio de Barby Digital.
-- CV de perfil híbrido y CV de QA / Test Automation, ambos públicos y sin teléfono ni información sensible.
+- CV de Turismo & Tecnología y CV de QA / Test Automation, ambos públicos y sin teléfono ni información sensible.
 
 ## Decisiones de desarrollo
 
@@ -58,6 +58,7 @@ Framework modular de pruebas UI y API con Python, Selenium WebDriver, Pytest, Re
 
 ### Otros proyectos
 
+- **Mi Diario de Carreras:** aplicación web responsive con HTML, CSS y JavaScript para registrar y consultar entrenamientos. La demo pública utiliza almacenamiento local; el repositorio incluye un backend para ejecución local con Node.js, Express y MySQL.
 - **QA Portfolio:** proyecto de testing funcional con planificación, casos de prueba, dos ciclos de ejecución, regresión, defectos y evidencias documentadas en Jira y Zephyr.
 - **Barby Digital:** diseño y desarrollo de sitios web responsive para emprendedores y pequeños negocios.
 - **GoTranscript:** traducción, transcripción y revisión freelance de contenidos multilingües.
@@ -99,7 +100,7 @@ Estas comprobaciones automáticas complementan, pero no reemplazan, la revisión
 ├── .github/workflows/quality.yml
 ├── assets/
 │   ├── Barbara_Bernhard_CV_QA_Test_Automation_2026_Publico.pdf
-│   ├── Barbara_Bernhard_CV_Tech_Hibrido_2026_Publico.pdf
+│   ├── Barbara_Bernhard_CV_Turismo_Tecnologia_2026_Publico.pdf
 │   ├── barbara-bernhard.webp
 │   └── barbara-bernhard-share-v3.jpg
 ├── .htmlvalidate.json
