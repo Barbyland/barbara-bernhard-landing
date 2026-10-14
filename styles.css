@@ -52,6 +52,14 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .hero h1 span { color: var(--teal); }
 .hero-role { max-width: 44rem; margin: 2rem 0 .65rem; color: var(--navy); font-size: clamp(1rem, 2vw, 1.28rem); font-weight: 750; }
 .hero-role span { padding-inline: .3rem; color: var(--teal); }
+@media (prefers-reduced-motion: no-preference) {
+  .hero-eyebrow { animation: hero-eyebrow-appear .7s ease-out both; }
+}
+@keyframes hero-eyebrow-appear {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.hero-qualification { max-width: 42rem; margin: 0 0 .8rem; color: var(--navy); font-size: 1rem; font-weight: 700; line-height: 1.45; }
 .hero-lead { max-width: 42rem; margin: 0; color: #3f4e5a; font-size: clamp(1.08rem, 2vw, 1.35rem); line-height: 1.55; }
 .hero-actions { display: flex; align-items: flex-start; flex-wrap: wrap; gap: 1rem; margin-top: 2rem; }
 .cv-download { display: grid; gap: .55rem; max-width: 22rem; }
@@ -171,10 +179,10 @@ blockquote { margin: 2.6rem 0 0; padding: .5rem 0 .5rem 1.6rem; color: var(--nav
   .hero { padding-top: 3.5rem; }
   .hero-grid { grid-template-columns: 1fr; }
   .hero-copy { display: contents; }
-  .hero .eyebrow, .hero h1, .hero-role, .hero-lead { grid-column: 1; }
-  .hero-actions { grid-row: 5; }
-  .availability { grid-row: 6; }
-  .portrait-wrap { grid-row: 7; justify-self: center; width: min(50vw, 185px); margin: 1.5rem auto 0; }
+  .hero .eyebrow, .hero h1, .hero-role, .hero-qualification, .hero-lead { grid-column: 1; }
+  .hero-actions { grid-row: 6; }
+  .availability { grid-row: 7; }
+  .portrait-wrap { grid-row: 8; justify-self: center; width: min(50vw, 185px); margin: 1.5rem auto 0; }
   .portrait-note { left: 50%; bottom: .65rem; width: max-content; max-width: calc(100% - .5rem); gap: .35rem; padding: .45rem .6rem; border-radius: .6rem; transform: translateX(-50%); }
   .portrait-note span { font-size: 1.05rem; }
   .portrait-note p { font-size: .55rem; line-height: 1.15; }
